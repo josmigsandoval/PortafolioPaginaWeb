@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact of Jose Miguel Sandoval Menjura</title>
+    <link rel="stylesheet" href="css/vendor/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Righteous" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <header>
+      <a href="Portafolio.html" id="logo">
+        <h1>Jose Miguel Sandoval Menjura</h1>
+        <h2>Student Student of Systems Engineering</h2>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="Portafolio.html">Portafolio</a></li>
+          <li><a href="acerca.html">About me</a></li>
+          <li><a href="contacto.html" class="selected">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <section id="primary">
+        <h3>Personal Information</h3>
+       <p ><ul><li>Name:Jose Miguel</li><li>last name:Sandoval</li><li>Middle name:Menjura</li><li>Date of birth: April 14th of 1999</li><li>Place of birth: Tunja,Boyaca</li><li>Id:99041412182</li><li>Email:josmigsandoval@uniboyaca.edu.co</li></ul></p>
+      </section>
+      
+      <section>
+        <form id="contactForm" method="post" action="php/contact-form.php">
+          <div>
+            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required />
+          </div>          
+          <div>
+            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+          </div>        
+          <div>
+            <input class="form-control" id="subject" type="text" name="subject" placeholder="Theme" required>
+          </div>
+          <div>
+            <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5" required></textarea>
+          </div>
+          <div>
+            <input type="submit" class="form-send" value="Send">
+          </div>
+        </form>
+      </section>
+       <footer>
+      <a href="https://twitter.com/josemig81311857?lang=es"><img src="https://goo.gl/ev2ggu" alt="Twitter Logo"
+        class="social-icon"></a>
+      <a href="https://www.facebook.com/josemiguel.sandovalmenjura.3"><img src="https://goo.gl/wRJS1S" alt="facebook Logo"
+        class="social-icon"></a>
+      <a href="https://www.instagram.com/migue_sandoval_/?hl=es-la"><img src="https://goo.gl/qAxrLN" alt="instagram Logo"
+        class="social-icon"></a>
+
+      <p>&copy; Jose Sandoval</p>
+    </footer>
+    </div>
+  </body>
+</html>
